@@ -11,7 +11,7 @@ namespace aspnetcoreapp
         {
             app.Run(context =>
             {
-                return context.Response.WriteAsync("Hello World!");
+                return context.Response.WriteAsync("Welome to Azure!");
             });
         }
     }
